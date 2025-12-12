@@ -204,5 +204,3 @@ Program menangani dua jenis error:
 - **Bahasa**: Python 3.x
 
 ---
-
-*Dokumentasi ini dibuat secara otomatis berdasarkan analisis kode program.*
