@@ -139,6 +139,12 @@ def run_benchmark():
 - **Legend**: Keterangan algoritma
 - **Grid**: Garis bantu untuk kemudahan membaca
 
+### Grafik Hasil Benchmark
+
+![Grafik Benchmark Iteratif vs Rekursif](grafik_benchmark.png)
+
+*Gambar: Perbandingan waktu eksekusi algoritma Iteratif (biru) vs Rekursif (merah)*
+
 ---
 
 ## 🚀 Cara Menjalankan Program
