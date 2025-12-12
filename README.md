@@ -98,9 +98,17 @@ Di mana:
 
 **Inti dari perhitungan ini adalah fungsi faktorial ($n!$)**. Memahami efisiensi perhitungan faktorial ini memberikan wawasan mikro tentang bagaimana sistem simulasi yang lebih besar bekerja.
 
+#### Contoh Perhitungan Permutasi Podium F1
+
+Untuk menghitung jumlah kemungkinan variasi podium (Top 3) dari 20 pembalap:
+
+$$P(20, 3) = \frac{20!}{(20-3)!} = \frac{20!}{17!} = 20 \times 19 \times 18 = 6.840 \text{ kombinasi}$$
+
+Program benchmark ini menguji efisiensi perhitungan $20!$ dan $17!$ yang menjadi komponen kritis dalam simulasi strategi F1.
+
 ---
 
-## 📋 Deskripsi Program
+## 3️⃣ Deskripsi Program
 
 Program ini merupakan **benchmark perbandingan algoritma faktorial** yang membandingkan dua pendekatan:
 1. **Algoritma Iteratif** (menggunakan loop)
@@ -268,10 +276,16 @@ python Code.py
 
 ### Kesimpulan
 
-1. **Algoritma Iteratif lebih efisien** untuk perhitungan faktorial dalam skala besar
-2. **Rekursif menggunakan memori O(n)** karena setiap pemanggilan menambah frame ke call stack
-3. **Ratio Rekursif/Iteratif meningkat** seiring bertambahnya ukuran input
-4. **Rekursif berisiko Stack Overflow** pada input yang sangat besar
+**Menjawab Rumusan Masalah:**
+
+1. **Karakteristik Kinerja (RM 1)**: Algoritma Iteratif lebih efisien untuk perhitungan faktorial dalam skala besar. Meskipun keduanya memiliki kompleksitas waktu O(n), iteratif memiliki kompleksitas ruang O(1) sementara rekursif O(n).
+
+2. **Batasan Recursion Depth (RM 2)**: Python memiliki batas rekursi default 1000. Untuk menghitung $20!$ (kebutuhan simulasi F1), rekursi masih aman. Namun untuk simulasi yang lebih kompleks dengan input besar, rekursi berisiko Stack Overflow.
+
+3. **Rekomendasi untuk Simulasi F1 (RM 3)**: **Algoritma Iteratif direkomendasikan** untuk implementasi sistem simulasi strategi Formula 1 karena:
+   - Lebih stabil tanpa risiko stack overflow
+   - Performa konsisten pada berbagai ukuran input
+   - Penggunaan memori yang efisien untuk komputasi real-time
 
 ---
 
@@ -294,7 +308,7 @@ Program menangani dua jenis error:
 
 ---
 
-## � Referensi
+## 📖 Referensi
 
 1. J. Á. Velázquez-Iturbide, M. E. Castellanos, dan R. Hijón-Neira, "Recursion Removal as an Instructional Method to Enhance the Understanding of Recursion Tracing," *IEEE Transactions on Education*, vol. 59, no. 3, pp. 1-1, Aug. 2015.
 
@@ -308,7 +322,7 @@ Program menangani dua jenis error:
 
 ---
 
-## �👤 Informasi
+## 👤 Informasi
 
 - **Mata Kuliah**: Analisis dan Kompleksitas Algoritma
 - **Jenis**: Tugas Besar
