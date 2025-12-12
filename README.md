@@ -141,7 +141,7 @@ def run_benchmark():
 
 ### Grafik Hasil Benchmark
 
-![Grafik Benchmark Iteratif vs Rekursif](grafik_benchmark.png)
+![Grafik Benchmark Iteratif vs Rekursif](https://github.com/hanif-12-01/TUBES-AKA/blob/main/TUBES/grafik_benchmark.png?raw=true)
 
 *Gambar: Perbandingan waktu eksekusi algoritma Iteratif (biru) vs Rekursif (merah)*
 
