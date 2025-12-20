@@ -10,18 +10,14 @@ import timeit     # Untuk mengukur waktu eksekusi code
 import matplotlib.pyplot as plt  # Untuk membuat grafik
 
 
-# ============================================================================
 # 1. KONFIGURASI SISTEM
-# ============================================================================
 
 # Set batas maksimum kedalaman rekursi ke 5000
 # Default Python hanya ~1000, kita naikkan agar rekursif bisa test N lebih besar
 sys.setrecursionlimit(5000)
 
 
-# ============================================================================
 # 2. IMPLEMENTASI ALGORITMA
-# ============================================================================
 
 def factorial_iterative(n):
     """
@@ -76,9 +72,7 @@ def factorial_recursive(n):
     return n * factorial_recursive(n - 1)
 
 
-# ============================================================================
 # 3. MODUL BENCHMARKING
-# ============================================================================
 
 def run_benchmark():
     """
@@ -202,9 +196,7 @@ def run_benchmark():
     return test_cases, results_iterative, results_recursive
 
 
-# ============================================================================
 # 4. VISUALISASI HASIL
-# ============================================================================
 
 def plot_results(ns, times_iter, times_rec):
     """
@@ -304,9 +296,7 @@ def plot_results(ns, times_iter, times_rec):
     plt.show()
 
 
-# ============================================================================
 # 5. MAIN PROGRAM
-# ============================================================================
 
 # if __name__ == "__main__":
 # Artinya: code di bawah hanya jalan kalau file ini di-run langsung
