@@ -1,8 +1,6 @@
-"""
-TUGAS BESAR ANALISIS DAN KOMPLEKSITAS ALGORITMA
-Benchmark Algoritma Faktorial: Iteratif vs Rekursif
-Studi Kasus: Permutasi Podium Formula 1
-"""
+# TUGAS BESAR ANALISIS DAN KOMPLEKSITAS ALGORITMA
+# Benchmark Algoritma Faktorial: Iteratif vs Rekursif
+# Studi Kasus: Permutasi Podium Formula 1
 
 # Import library yang dibutuhkan
 import sys        # Untuk mengatur system settings (recursion limit)
