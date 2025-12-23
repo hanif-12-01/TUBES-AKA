@@ -392,6 +392,3 @@ PROJECT_MBUT/
 
 4. I. T. A. Yanto, et al., "An Analysis of a Recursive and an Iterative Algorithm for Generating Permutations Modified for Travelling Salesman Problem," *International Journal on Advanced Science, Engineering and Information*.
 
----
-
-**© 2024 - Project MBUT | Analisis Kompleksitas Algoritma**
