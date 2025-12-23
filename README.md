@@ -335,40 +335,20 @@ Berdasarkan hasil analisis dan benchmarking yang telah dilakukan, dapat disimpul
 4. **Rekomendasi:** Gunakan pendekatan iteratif untuk implementasi perhitungan faktorial dalam sistem produksi, terutama yang membutuhkan keandalan tinggi seperti sistem komputasi strategi tim Formula 1.
 
 ---
-
-## 9. Cara Menjalankan Program
-
-### 9.1 Prasyarat
-
-Pastikan Anda telah menginstal:
-- Python 3.x
-- Library matplotlib
-
-```bash
-pip install matplotlib
-```
-
-### 9.2 Menjalankan Program
-
-```bash
-python Code.py
-```
-
-### 9.3 Output Program
+### 9. Output Program
 
 Program akan menghasilkan:
 1. **Tabel benchmark** di terminal dengan perbandingan waktu eksekusi
 2. **File grafik** `grafik_benchmark.png` berisi visualisasi hasil
 3. **Window grafik** (jika environment mendukung display)
 
-### 9.4 Struktur File
+### 10 Struktur File
 
 ```
 PROJECT_MBUT/
 ├── README.md           # Dokumentasi project (file ini)
 ├── TUBES/
-│   └── Code.py         # Source code utama
-└── grafik_benchmark.png # Output grafik (generated)
+    └── Code.py         # Source code utama
 ```
 
 ---
