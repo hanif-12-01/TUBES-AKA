@@ -342,6 +342,7 @@ Program akan menghasilkan:
 2. **File grafik** `grafik_benchmark.png` berisi visualisasi hasil
 3. **Window grafik** (jika environment mendukung display)
 
+---
 ### 10 Struktur File
 
 ```
