@@ -1,9 +1,19 @@
 # PROJECT MBUT: Model Ban Usia Terprediksi
-### Analisis Efisiensi Algoritma Iteratif vs Rekursif pada Simulasi F1
+### Analisis Efisiensi Algoritma Iteratif vs Rekursif pada Simulasi Keausan Ban F1
 
 > **Mata Kuliah:** Analisis Kompleksitas Algoritma  
 > **Topik:** Perbandingan Kompleksitas Waktu & Ruang (Time & Space Complexity)  
 > **Studi Kasus:** Permutasi Strategi Urutan Ban (Tire Strategy Permutation)
+
+---
+
+## Anggota Tim
+
+| Nama | NIM |
+|------|-----|
+| M. Hanif Al Faiz | 103112400042 |
+| Muhammad Gamel Al Ghifari | 103112400028 |
+| Muhammad Shabrian Fadly | 103112400087 |
 
 ---
 
@@ -335,28 +345,53 @@ Berdasarkan hasil analisis dan benchmarking yang telah dilakukan, dapat disimpul
 4. **Rekomendasi:** Gunakan pendekatan iteratif untuk implementasi perhitungan faktorial dalam sistem produksi, terutama yang membutuhkan keandalan tinggi seperti sistem komputasi strategi tim Formula 1.
 
 ---
-### 9. Output Program
+
+## 9. Cara Menjalankan Program
+
+### 9.1 Prasyarat
+
+Pastikan Anda telah menginstal:
+- Python 3.x
+- Library matplotlib
+
+```bash
+pip install matplotlib
+```
+
+### 9.2 Menjalankan Program
+
+```bash
+python Code.py
+```
+
+### 9.3 Output Program
 
 Program akan menghasilkan:
 1. **Tabel benchmark** di terminal dengan perbandingan waktu eksekusi
 2. **File grafik** `grafik_benchmark.png` berisi visualisasi hasil
 3. **Window grafik** (jika environment mendukung display)
 
----
-### 10 Struktur File
+### 9.4 Struktur File
 
 ```
 PROJECT_MBUT/
 ├── README.md           # Dokumentasi project (file ini)
 ├── TUBES/
-    └── Code.py         # Source code utama
+   └── Code.py         # Source code utama
 ```
 
 ---
 
 ## Referensi
 
-1. Cormen, T. H., et al. (2009). *Introduction to Algorithms* (3rd ed.). MIT Press.
-2. Python Software Foundation. (2024). *Python Documentation - sys module*.
-3. Python Software Foundation. (2024). *Python Documentation - timeit module*.
-4. Formula 1 Official. (2024). *Tyre Regulations and Strategy*.
+1. J. Á. Velásquez-Iturbide, M. E. Castellanos, dan R. Hijón-Neira, "Recursion Removal as an Instructional Method to Enhance the Understanding of Recursion Tracing," *IEEE Transactions on Education*, vol. 59, no. 3, pp. 1-1, Aug. 2015.
+
+2. A. Ayodele dan F. Oluwade, "A Comparative Analysis of Quick, Merge and Insertion Sort Algorithms using Three Programming Languages 1: Execution Time Analysis," *African Journal of Management Information Systems*, vol. 1, no. 1, pp. 1-18, Jan. 2019.
+
+3. N. Kumar dan R. Singh, "Performance Comparison of Sorting Algorithms On The Basis Of Complexity," *International Journal of Computer Science and Information Technology Research*, vol. 2, no. 3, pp. 394-398, 2014.
+
+4. I. T. A. Yanto, et al., "An Analysis of a Recursive and an Iterative Algorithm for Generating Permutations Modified for Travelling Salesman Problem," *International Journal on Advanced Science, Engineering and Information*.
+
+---
+
+**© 2024 - Project MBUT | Analisis Kompleksitas Algoritma**
