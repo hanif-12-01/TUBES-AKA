@@ -39,18 +39,4 @@ Daftar kemungkinannya:
 5. ⚪ ➝ 🔴 ➝ 🟡
 6. ⚪ ➝ 🟡 ➝ 🔴
 
----
 
-## 💻 Implementasi Code
-
-Program ditulis dalam Python dan menguji dua fungsi berikut:
-
-### 1. Algoritma Iteratif
-Menggunakan perulangan `for` untuk mengalikan angka dari 2 hingga N.
-
-```python
-def factorial_iterative(n):
-    result = 1
-    for i in range(2, n + 1):
-        result *= i
-    return result
