@@ -360,7 +360,3 @@ PROJECT_MBUT/
 2. Python Software Foundation. (2024). *Python Documentation - sys module*.
 3. Python Software Foundation. (2024). *Python Documentation - timeit module*.
 4. Formula 1 Official. (2024). *Tyre Regulations and Strategy*.
-
----
-
-**© 2024 - Project MBUT | Analisis Kompleksitas Algoritma**
